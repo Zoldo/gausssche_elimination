@@ -1,0 +1,506 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D2D239771D448B57000F356B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2D239761D448B57000F356B /* AppDelegate.swift */; };
+		D2D239791D448B57000F356B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D2D239781D448B57000F356B /* Assets.xcassets */; };
+		D2D2397C1D448B57000F356B /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = D2D2397A1D448B57000F356B /* MainMenu.xib */; };
+		D2D239871D448B57000F356B /* gausssche_eliminationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2D239861D448B57000F356B /* gausssche_eliminationTests.swift */; };
+		D2D239921D448B57000F356B /* gausssche_eliminationUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2D239911D448B57000F356B /* gausssche_eliminationUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D2D239831D448B57000F356B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D2D2396B1D448B56000F356B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D2D239721D448B56000F356B;
+			remoteInfo = gausssche_elimination;
+		};
+		D2D2398E1D448B57000F356B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D2D2396B1D448B56000F356B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D2D239721D448B56000F356B;
+			remoteInfo = gausssche_elimination;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D2D239731D448B56000F356B /* gausssche_elimination.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = gausssche_elimination.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D2D239761D448B57000F356B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D2D239781D448B57000F356B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D2D2397B1D448B57000F356B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		D2D2397D1D448B57000F356B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D2D239821D448B57000F356B /* gausssche_eliminationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = gausssche_eliminationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D2D239861D448B57000F356B /* gausssche_eliminationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = gausssche_eliminationTests.swift; sourceTree = "<group>"; };
+		D2D239881D448B57000F356B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D2D2398D1D448B57000F356B /* gausssche_eliminationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = gausssche_eliminationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D2D239911D448B57000F356B /* gausssche_eliminationUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = gausssche_eliminationUITests.swift; sourceTree = "<group>"; };
+		D2D239931D448B57000F356B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D2D239701D448B56000F356B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2D2397F1D448B57000F356B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2D2398A1D448B57000F356B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D2D2396A1D448B56000F356B = {
+			isa = PBXGroup;
+			children = (
+				D2D239751D448B56000F356B /* gausssche_elimination */,
+				D2D239851D448B57000F356B /* gausssche_eliminationTests */,
+				D2D239901D448B57000F356B /* gausssche_eliminationUITests */,
+				D2D239741D448B56000F356B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D2D239741D448B56000F356B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D2D239731D448B56000F356B /* gausssche_elimination.app */,
+				D2D239821D448B57000F356B /* gausssche_eliminationTests.xctest */,
+				D2D2398D1D448B57000F356B /* gausssche_eliminationUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D2D239751D448B56000F356B /* gausssche_elimination */ = {
+			isa = PBXGroup;
+			children = (
+				D2D239761D448B57000F356B /* AppDelegate.swift */,
+				D2D239781D448B57000F356B /* Assets.xcassets */,
+				D2D2397A1D448B57000F356B /* MainMenu.xib */,
+				D2D2397D1D448B57000F356B /* Info.plist */,
+			);
+			path = gausssche_elimination;
+			sourceTree = "<group>";
+		};
+		D2D239851D448B57000F356B /* gausssche_eliminationTests */ = {
+			isa = PBXGroup;
+			children = (
+				D2D239861D448B57000F356B /* gausssche_eliminationTests.swift */,
+				D2D239881D448B57000F356B /* Info.plist */,
+			);
+			path = gausssche_eliminationTests;
+			sourceTree = "<group>";
+		};
+		D2D239901D448B57000F356B /* gausssche_eliminationUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D2D239911D448B57000F356B /* gausssche_eliminationUITests.swift */,
+				D2D239931D448B57000F356B /* Info.plist */,
+			);
+			path = gausssche_eliminationUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D2D239721D448B56000F356B /* gausssche_elimination */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D2D239961D448B57000F356B /* Build configuration list for PBXNativeTarget "gausssche_elimination" */;
+			buildPhases = (
+				D2D2396F1D448B56000F356B /* Sources */,
+				D2D239701D448B56000F356B /* Frameworks */,
+				D2D239711D448B56000F356B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = gausssche_elimination;
+			productName = gausssche_elimination;
+			productReference = D2D239731D448B56000F356B /* gausssche_elimination.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D2D239811D448B57000F356B /* gausssche_eliminationTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D2D239991D448B57000F356B /* Build configuration list for PBXNativeTarget "gausssche_eliminationTests" */;
+			buildPhases = (
+				D2D2397E1D448B57000F356B /* Sources */,
+				D2D2397F1D448B57000F356B /* Frameworks */,
+				D2D239801D448B57000F356B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D2D239841D448B57000F356B /* PBXTargetDependency */,
+			);
+			name = gausssche_eliminationTests;
+			productName = gausssche_eliminationTests;
+			productReference = D2D239821D448B57000F356B /* gausssche_eliminationTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D2D2398C1D448B57000F356B /* gausssche_eliminationUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D2D2399C1D448B57000F356B /* Build configuration list for PBXNativeTarget "gausssche_eliminationUITests" */;
+			buildPhases = (
+				D2D239891D448B57000F356B /* Sources */,
+				D2D2398A1D448B57000F356B /* Frameworks */,
+				D2D2398B1D448B57000F356B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D2D2398F1D448B57000F356B /* PBXTargetDependency */,
+			);
+			name = gausssche_eliminationUITests;
+			productName = gausssche_eliminationUITests;
+			productReference = D2D2398D1D448B57000F356B /* gausssche_eliminationUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D2D2396B1D448B56000F356B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = peter.weilnboeck;
+				TargetAttributes = {
+					D2D239721D448B56000F356B = {
+						CreatedOnToolsVersion = 7.3.1;
+						LastSwiftMigration = 0800;
+					};
+					D2D239811D448B57000F356B = {
+						CreatedOnToolsVersion = 7.3.1;
+						LastSwiftMigration = 0800;
+						TestTargetID = D2D239721D448B56000F356B;
+					};
+					D2D2398C1D448B57000F356B = {
+						CreatedOnToolsVersion = 7.3.1;
+						LastSwiftMigration = 0800;
+						TestTargetID = D2D239721D448B56000F356B;
+					};
+				};
+			};
+			buildConfigurationList = D2D2396E1D448B56000F356B /* Build configuration list for PBXProject "gausssche_elimination" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D2D2396A1D448B56000F356B;
+			productRefGroup = D2D239741D448B56000F356B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D2D239721D448B56000F356B /* gausssche_elimination */,
+				D2D239811D448B57000F356B /* gausssche_eliminationTests */,
+				D2D2398C1D448B57000F356B /* gausssche_eliminationUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D2D239711D448B56000F356B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D2D239791D448B57000F356B /* Assets.xcassets in Resources */,
+				D2D2397C1D448B57000F356B /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2D239801D448B57000F356B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2D2398B1D448B57000F356B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D2D2396F1D448B56000F356B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D2D239771D448B57000F356B /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2D2397E1D448B57000F356B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D2D239871D448B57000F356B /* gausssche_eliminationTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2D239891D448B57000F356B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D2D239921D448B57000F356B /* gausssche_eliminationUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D2D239841D448B57000F356B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D2D239721D448B56000F356B /* gausssche_elimination */;
+			targetProxy = D2D239831D448B57000F356B /* PBXContainerItemProxy */;
+		};
+		D2D2398F1D448B57000F356B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D2D239721D448B56000F356B /* gausssche_elimination */;
+			targetProxy = D2D2398E1D448B57000F356B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D2D2397A1D448B57000F356B /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D2D2397B1D448B57000F356B /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D2D239941D448B57000F356B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D2D239951D448B57000F356B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		D2D239971D448B57000F356B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = gausssche_elimination/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.weilnboeck.peter.gausssche-elimination";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		D2D239981D448B57000F356B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = gausssche_elimination/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.weilnboeck.peter.gausssche-elimination";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		D2D2399A1D448B57000F356B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = gausssche_eliminationTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.weilnboeck.peter.gausssche-eliminationTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/gausssche_elimination.app/Contents/MacOS/gausssche_elimination";
+			};
+			name = Debug;
+		};
+		D2D2399B1D448B57000F356B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = gausssche_eliminationTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.weilnboeck.peter.gausssche-eliminationTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/gausssche_elimination.app/Contents/MacOS/gausssche_elimination";
+			};
+			name = Release;
+		};
+		D2D2399D1D448B57000F356B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = gausssche_eliminationUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.weilnboeck.peter.gausssche-eliminationUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = gausssche_elimination;
+			};
+			name = Debug;
+		};
+		D2D2399E1D448B57000F356B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = gausssche_eliminationUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.weilnboeck.peter.gausssche-eliminationUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = gausssche_elimination;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D2D2396E1D448B56000F356B /* Build configuration list for PBXProject "gausssche_elimination" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D2D239941D448B57000F356B /* Debug */,
+				D2D239951D448B57000F356B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D2D239961D448B57000F356B /* Build configuration list for PBXNativeTarget "gausssche_elimination" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D2D239971D448B57000F356B /* Debug */,
+				D2D239981D448B57000F356B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D2D239991D448B57000F356B /* Build configuration list for PBXNativeTarget "gausssche_eliminationTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D2D2399A1D448B57000F356B /* Debug */,
+				D2D2399B1D448B57000F356B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D2D2399C1D448B57000F356B /* Build configuration list for PBXNativeTarget "gausssche_eliminationUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D2D2399D1D448B57000F356B /* Debug */,
+				D2D2399E1D448B57000F356B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D2D2396B1D448B56000F356B /* Project object */;
+}
